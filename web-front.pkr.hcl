@@ -13,8 +13,8 @@ source "amazon-ebs" "ubuntu" {
   ami_name      = "web-nginx-aws"
   instance_type = "t2.micro"
   region        = "us-west-2"
-  vpc_id        = "vpc-0f43bffe5fb929b0d"
-  subnet_id     = "subnet-07bff7766538fef80"
+  vpc_id        = "<Your VPC>"
+  subnet_id     = "Your Subnet"
 
   source_ami_filter {
     filters = {
